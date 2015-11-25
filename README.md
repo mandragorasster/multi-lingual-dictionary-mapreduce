@@ -1,4 +1,4 @@
-# languages-dictionary-mapreduce
+# multi-lingual-dictionary-mapreduce
 A test using Hadoop MapReduce to generate a multi-lingual dictionary
 
 This project was implemented over Cloudera Single Node Hadoop VM:
