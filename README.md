@@ -34,3 +34,8 @@ Run:
 ```
 hadoop jar translator.jar org.myorg.Translator /user/cloudera/translator/input /user/cloudera/translator/output
 ```
+
+See results:
+```
+hadoop fs –cat /user/cloudera/translator/output/part-00000
+```
