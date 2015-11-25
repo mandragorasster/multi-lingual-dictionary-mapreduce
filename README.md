@@ -10,11 +10,11 @@ Set up CLASSPATH var:
 export CLASSPATH=/usr/lib/hadoop/client-0.20/\*:/usr/lib/hadoop\*
 
 Transfer data to HDFS:
-hadoop fs -mkdir /user/cloudera/translator
+`hadoop fs -mkdir /user/cloudera/translator
 hadoop fs -mkdir /user/cloudera/translator/input
 hadoop fs -put en /user/cloudera/translator/input
 hadoop fs -put es /user/cloudera/translator/input
-hadoop fs -put fr /user/cloudera/translator/input
+hadoop fs -put fr /user/cloudera/translator/input`
 
 Compile:
 javac -d classes/ Translator.java
