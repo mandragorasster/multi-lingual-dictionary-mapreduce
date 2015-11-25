@@ -1,0 +1,3 @@
+menina,fille
+cachorro,chien
+limao,citron
